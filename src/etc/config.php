@@ -1,6 +1,6 @@
 <?php
 //phpMyFireWall
-//author dstjohn@mediacast1.com
+//author davestj@gmail.com
 
 ################################################################################
 //configuration

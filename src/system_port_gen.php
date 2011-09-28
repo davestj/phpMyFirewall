@@ -1,6 +1,9 @@
 #!/usr/bin/php -q
 <?php
+//phpMyFireWall
+//author davestj@gmail.com
 error_reporting(E_ERROR);
+
 // system port generator for phpMyFirewall
 // this nifty little script will get your current open
 // ports, tcp and udp and create a db files with them,
