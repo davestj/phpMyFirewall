@@ -1,7 +1,7 @@
 #!/usr/bin/php -q
 <?php
 //phpMyFireWall
-//author dstjohn@mediacast1.com
+//author davestj@gmail.com
 //for kernels 2.6
 error_reporting(E_ERROR);
 include('./etc/config.php');
