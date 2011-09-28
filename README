@@ -1,0 +1,18 @@
+phpMyFirewall
+
+
+open up setup.php and change the path
+to your php binary installation
+default is #!/usr/bin/php -q
+possible examples: 
+#!/usr/local/php/bin/php -q
+or
+#!/usr/local/bin/php -q
+
+
+then run chmod 755 setup.php
+and execute 
+./setup.php --check
+if all pass's the system sanity checks proceed 
+
+open up etc/config.php and edit accordingly
