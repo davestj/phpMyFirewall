@@ -507,23 +507,23 @@ if(file_exists("/proc/sys/net/ipv4/tcp_sack")){
 if($args == '--status'){
     $NUM_LINES = shell_exec("$IPTABLES -L -n | wc -l | awk '{print $1}'");
     echo shell_exec("$IPTABLES -L -n");
-  // echo shell_exec("echo -e \"\033[32mFirewall - Running!\"");
+  // echo shell_exec("echo -e \"\033[32mphpMyFirewall - Running!\"");
   // echo shell_exec("echo -e -n \"\033[0m \"");
 
 /*        
   if($NUM_LINES > "10"){
-   echo shell_exec("echo -e \"\033[31mFirewall - Stopped!\"");
+   echo shell_exec("echo -e \"\033[31mphpMyFirewall - Stopped!\"");
    echo shell_exec("echo -e -n \"\033[0m \"");
     }
   if($NUM_LINES != "11"){
-   echo shell_exec("echo -e \"\033[32mFirewall - Running!\"");
+   echo shell_exec("echo -e \"\033[32mphpMyFirewall - Running!\"");
    echo shell_exec("echo -e -n \"\033[0m \"");
 
     }
 
   
-	echo -e "\033[31mKISS My Firewall - Stopped!"
-	echo -e "\033[32mKISS My Firewall - Running!"
+	echo -e "\033[31mphpMyFirewall - Stopped!"
+	echo -e "\033[32mphpMyFirewall - Running!"
 	echo -e -n "\033[0m "
 */
 }
